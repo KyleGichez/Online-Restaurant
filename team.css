@@ -1,0 +1,90 @@
+﻿body {
+    background: linear-gradient(blueviolet,fuchsia,rgba(76, 255, 0,0.7));
+    
+}
+#feature{
+    padding:30px 0;
+    width:100%;
+}
+.logo{
+    font-family:'Lucida Sans Unicode';
+    color:lawngreen;
+    text-transform:uppercase;
+    font-weight:600;
+}
+.title-text{
+    text-align:center;
+    padding-bottom:30px;
+}
+.title-text p{
+    margin:auto;
+    font-size:20px;
+    font-weight:bold;
+    color:yellow;
+    z-index:1;
+    position:relative;
+    display:inline-block;
+}
+.title-text p::after{
+    content:"";
+    width:50px;
+    height:35px;
+    background:linear-gradient(fuchsia,#ffd800);
+    position:absolute;
+    top:-20px;
+    left:0;
+    z-index:-1;
+    transform:rotate(10deg);
+    border-top-left-radius:35px;
+    border-bottom-right-radius:35px;
+}
+.title-text h1{
+    font-size:50px;
+    color:chartreuse;
+}
+.feature-box{
+    width:80%;
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    text-align:center;
+}
+.feature{
+   
+}
+.feature h1{
+    color:aliceblue;
+    text-align:left;
+    margin:20px;
+    font-weight:100;
+}
+.feature-text p{
+    color:lawngreen;
+    text-align:initial;
+    padding:0 20px;
+
+}
+.feature-image{
+    flex-basis:50%; 
+    margin:auto;
+}
+.feature-image image{
+    width:100%;
+    border:10px;
+    height:100vh;
+}
+.feature-description{
+    display:flex;
+    margin-bottom:40px;
+    align-items:center;
+}
+.Feature-icon .fa{
+    width:50px;
+    height:50px;
+    font-size:30px;
+    line-height:50px;
+    border-radius:8px;
+    color:lawngreen;
+    border:1px solid gold;
+}

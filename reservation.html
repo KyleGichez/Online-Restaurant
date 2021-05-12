@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="reservation.css" />
+    <title>Booking Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-time">
+            <div class="container-form">
+                <h2 class="heading">Time Open</h2>
+                <h3 class="heading-days">Monday - Friday</h3>
+                <p>7am - 11am (Breakfast)</p>
+                <p>11am - 10pm (Lunch & Dinner)</p>
+                <h3 class="heading-days">Saturday - Sunday</h3>
+                <p>8:30am - 11:30am (Breakfast)</p>
+                <p>11:30am - 10:00pm (Lunch & Dinner)</p>
+                <hr />
+                <h4 class="heading-phone">Call Us via (+123)22-37-141</h4>
+            </div>
+        </div>
+        <div class="container-form">
+            <form action="reservation.html" method="get">
+                <h2 class="heading">Reservation Online</h2>
+                <div class="form-field">
+                    <p>Your Name:</p>
+                    <input id="name" type="text" placeholder="Write your name" />
+                </div>
+                <div class="form-field">
+                    <p>Your Email:</p>
+                    <input id="email" type="email" placeholder="Write your email" />
+                </div>
+                <div class="form-field">
+                    <p>Date:</p>
+                    <input id="date" type="date" />
+                </div>
+                <div class="form-field">
+                    <p>Time:</p>
+                    <input id="time" type="time" />
+                </div>
+                <div class="form-field">
+                    <p>No of People:</p>
+                    <select name="select" id="option">
+                        <option  value="1">1 Person</option>
+                        <option  value="2">2 People</option>
+                        <option  value="3">3 People</option>
+                        <option  value="4">4 People</option>
+                        <option  value="5">5 People</option>
+                        <option  value="6">6 People</option>
+                        <option  value="7">7 People</option>
+                        <option  value="8">8 People</option>
+                        <option  value="9">9 People</option>
+                        <option  value="10">10 People</option>
+                    </select>
+                </div>
+                <div class="submitButton">
+                    <button id="button" class="btn">Submit</button>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+    <script src="reservation.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+﻿body {
+    font-family: 'Francois One', sans;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)),url(images/restaurant.jpg);
+    background-size: cover;
+}
+.box
+{
+    width:900px;
+    float:right;
+    border:1px solid none;
+}
+.logo{
+    width:170px;
+    cursor:pointer;
+    color:lawngreen;
+    font-weight:600;
+}
+.box ul li{
+    width:120px;
+    float:left;
+    margin:10px;
+    text-align:center;
+    list-style:none;
+    cursor:pointer;
+}
+.active, .box ul li:hover {
+    background:blueviolet;
+    border-radius: 3px;
+}
+.box ul li a{
+    text-decoration:none;
+    color:lawngreen;
+}
+.box ul li:hover{
+    background-color:blueviolet;
+}
+.box ul li a:hover {
+    color:aqua;
+}
+.wrapper{
+    width:250px;
+    height:490px;
+    background-color:blueviolet;
+    opacity:0.5;
+    padding:50px;
+}
+.wrapper h1{
+    text-align:center;
+    text-transform:uppercase;
+    font-weight:100;
+    color:lawngreen;
+}
+.wrapper h4{
+    color:aqua;
+    font-family: 'Old Standard TT', serif;
+    text-align:justify;
+    font-weight:normal;
+}
+.wrapper h2{
+    text-align:center;
+    text-transform:uppercase;
+    font-weight:normal;
+    margin:40px auto;
+    color:lawngreen;
+}
+.option form{
+    background-color:purple;
+    color:lawngreen;
+    padding:10px;
+    margin:auto 35px;
+    cursor:pointer;
+    border:1px solid gold;
+    
+}
+.option input[type="button"] {
+    background-color:fuchsia;
+    color: lawngreen;
+    padding: 10px;
+    margin: auto 35px;
+    cursor: pointer;
+    border: 1px solid deepskyblue;
+}
+form ,input[type="button"]:hover{
+    background-color:lawngreen;
+    color:red;
+}
+@media(max-width:850px){
+    .box {
+        width: 400px;
+        margin: 5px auto ;
+        
+    }
+    .logo{
+        width:150px;
+        margin:5px;
+    }
+    .wrapper{
+        width:240px;
+        margin:auto;
+    }
+}
