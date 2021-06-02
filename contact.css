@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+﻿
 *
 {
     margin:0;
@@ -254,8 +254,8 @@ big-circle:after{
     height:360px;
     background:fuchsia;
     border-radius:50%;
-    top:calc(50% -180px);
-    left:calc(50% -180px);
+    top:calc(50% );
+    left:calc(50% );
 }
 @media(max-width:850px){
     .form{
